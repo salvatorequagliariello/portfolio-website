@@ -1,9 +1,22 @@
-.root {
-    --primary-white-color: "F4F1EC";
-    --primary-dark-color: "F4F1EC";
-    --primary-accent-color: "#D91A33";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;1,100;1,300;1,500;1,600&display=swap');
+
+:root {
+    --primary-white-color: #ECE7E1;
+    --primary-dark-color: #1A1818;
+    --primary-accent-color: #D91A33;
+
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 
 }
 
 .frame {
-    width: ;
+    height: 100vh;
+    border: 80px solid var(--primary-dark-color);
+    background-color: var(--primary-white-color);
+}
+
+.header-font {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    text-transform: uppercase;
 }

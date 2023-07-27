@@ -4,9 +4,9 @@ const Home = () => {
     return (
         <div className="home container-fluid">
             <div className="row h-50">
-                <div className="text-container col-12  h-100">
-                    <p className="name-font">SALVATORE QUAGLIARIELLO</p>
-                    <p className="p-font">//Front-end Developer</p>
+                <div className="text-container col-12 h-100">
+                    <p className="name-font">Salvatore Quagliariello</p>
+                    <p className="p-font">Front-end Developer</p>
                 </div>
             </div>
             <div className="row h-50">

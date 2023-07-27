@@ -1,33 +1,80 @@
-@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
+@import url('https://fonts.cdnfonts.com/css/space-mono');
+@import url('https://fonts.cdnfonts.com/css/magfire-hyena');
+
+@import url('https://fonts.cdnfonts.com/css/mioge');
 
 :root {
     --primary-white-color: #ECE7E1;
     --primary-dark-color: #1A1818;
     --primary-accent-color: #D91A33;
 
-    --font-primary: 'Neue Haas Grotesk Display Pro', sans-serif;;
-    --font-secondary: 
+    --font-primary: 'Space Mono', sans-serif;
+    --font-secondary: 'Mioge', sans-serif;
 }
 
 .frame {
+    padding: 0;
+
     height: 100vh;
     border: 5vw solid var(--primary-dark-color);
     background-color: var(--primary-white-color);
 }
 
-.header-font {
+.home {
+    height: 100%;
+    padding: 0;
+}
+
+.name-font {
     font-family: var(--font-primary);
     font-weight: 500;
 
-    letter-spacing: 0.0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    color: var(--primary-accent-color)
 }
 
 .p-font {
-    margin-top: 0.5rem;
-
     font-family: var(--font-primary);
     font-weight: 300;
     font-size: 1.05rem;
 
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.03rem;
+    line-height: 0.9;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    padding: 0;
+    margin: 0;
+}
+
+.links-container {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.link-text {
+    font-family: var(--font-secondary);
+    font-size: 12rem;
+    line-height: 0.8;
+
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.link-text:hover  {
+    color: var(--primary-accent-color);
+    font-style: italic;
 }

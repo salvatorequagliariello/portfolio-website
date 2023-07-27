@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
     return (
         <div className="home container-fluid">
@@ -9,9 +11,9 @@ const Home = () => {
             </div>
             <div className="row h-50">
                 <section className="links-container col-12  h-100">
-                            <h2 className="link-text col-12">WORKS</h2>
-                            <h2 className="link-text col-12">ABOUT</h2>
-                            <h2 className="link-text col-12">CONTACT</h2>
+                    <Link className="link-text col-12" to={"/works"}>WORKS</Link>
+                    <Link className="link-text col-12" to={"/about"}>ABOUT</Link>
+                    <Link className="link-text col-12" to={"/contact"}>CONTACT</Link>
                 </section>
             </div>
         </div>

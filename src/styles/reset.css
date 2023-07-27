@@ -53,4 +53,10 @@ a:-webkit-any-link {
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
-  }
+}
+button {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}

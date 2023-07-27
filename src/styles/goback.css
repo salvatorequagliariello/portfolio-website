@@ -1,0 +1,21 @@
+
+.go-back__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.go-back__category {
+    font-family: var(--font-primary);
+    text-align: center;
+    vertical-align: center;
+
+    font-style: oblique;
+    font-size: 1.5rem;
+}
+
+.go-back__button-link {
+    font-size: 1.5rem;
+    text-align: center;
+}

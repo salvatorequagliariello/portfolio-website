@@ -10,6 +10,7 @@ import './styles/works.css'
 import './styles/about.css'
 import './styles/contact.css'
 import './styles/home.css'
+import './styles/goback.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

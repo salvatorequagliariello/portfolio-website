@@ -1,12 +1,9 @@
-import { Link } from "react-router-dom";
+import GoBack from "./GoBackNavigation";
 
 const Contact = () => {
     return (
         <>
-        <div>
-            <button><Link to={"/"}>Home</Link></button>
-            <h1>Contact</h1>
-        </div>
+            <GoBack categoryName={"Contact"}/>
         </>
     )
 }

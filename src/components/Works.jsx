@@ -5,7 +5,7 @@ import GoBack from "./GoBackNavigation";
 const Works = () => {
     return (
         <>
-            <GoBack categoryName={"Works"}/>
+            <GoBack categoryName={"WORKS"}/>
         </>
     )
 }

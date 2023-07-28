@@ -3,7 +3,7 @@ import GoBack from "./GoBackNavigation";
 const About = () => {
     return (
         <>
-            <GoBack categoryName={"About"}/>
+            <GoBack categoryName={"ABOUT"}/>
         </>
     );
 };

@@ -5,7 +5,7 @@ import GoBack from "./GoBackNavigation";
 const Works = () => {
     return (
             <div className="works-page container-fluid  h-100">
-                <GoBack categoryName={"WORKS"}/>
+                <GoBack categoryName={"WORKS"} categoryDescription={"//a showcase of my portfolio projects."}/>
                 <div className="row h-100">
                     <div className="works__links-list col-6 h-100">
                         <p className="works__link">Instagram</p>

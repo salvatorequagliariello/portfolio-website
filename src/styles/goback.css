@@ -16,6 +16,11 @@
     letter-spacing: 0.2rem;
 }
 
+.go-back__category-description {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+}
+
 .go-back__button-link {
     font-size: 1.5rem;
     text-align: center;

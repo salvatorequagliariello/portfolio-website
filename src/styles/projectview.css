@@ -1,0 +1,51 @@
+
+.project-view__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 4rem;
+
+    gap: 1rem;
+}
+
+.project-view__image {
+    border: 0.25rem solid var(--primary-dark-color);
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+    cursor: pointer;
+    transition: border-color 0.2s,
+                filter 0.2s,
+                -webkit-filter 0.2s;
+}
+
+.project-view__image:hover {
+    -webkit-filter: none; /* Safari 6.0 - 9.0 */
+    filter: none;
+    border-color: var(--primary-accent-color);
+}
+
+.project-view__title {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+
+    cursor: pointer;
+}
+
+.project-view__title:hover {
+    color: var(--primary-accent-color);
+    font-style: italic;
+}
+
+.project-view__tech {
+    font-family: var(--font-primary);
+    font-style: italic;
+}
+
+.project-view__description {
+    font-family: var(--font-primary);
+    line-height: 1.1;
+
+    text-align: justify;
+}

@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/space-mono');
 @import url('https://fonts.cdnfonts.com/css/magfire-hyena');
 
-@import url('https://fonts.cdnfonts.com/css/roboto-mono');
+@import url('https://fonts.cdnfonts.com/css/anonymous-pro');
 @import url('https://fonts.cdnfonts.com/css/sf-mono');
 
 @import url('https://fonts.cdnfonts.com/css/mioge');
@@ -13,7 +13,7 @@
     --primary-dark-color: #1A1818;
     --primary-accent-color: #D91A33;
 
-    --font-primary: 'SF Mono', sans-serif;
+    --font-primary: 'Anonymous Pro', sans-serif;
     --font-secondary: 'Mioge', sans-serif;
 }
 
@@ -28,4 +28,3 @@
 .app-container {
     border: 0.15rem solid var(--primary-dark-color)
 }
-

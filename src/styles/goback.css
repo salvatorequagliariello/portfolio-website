@@ -2,7 +2,9 @@
 .go-back__container {
     display: flex;
     justify-content: flex-start;
+
     align-items: center;
+    flex-wrap: nowrap;
     gap: 1rem;
 }
 

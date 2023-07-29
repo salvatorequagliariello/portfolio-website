@@ -19,3 +19,8 @@
     text-align: justify;
     margin-bottom: 2rem;
 }
+
+.about__hi-button:hover {
+    color: var(--primary-accent-color);
+    font-style: italic;
+}

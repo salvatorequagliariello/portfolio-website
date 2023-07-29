@@ -11,13 +11,13 @@ function App() {
 
   return (
       <div className="frame container-fluid">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/works" element={<Works />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/works/instagram" element={<InstagramTest />} />
-          </Routes>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/works" element={<Works />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/works/instagram" element={<InstagramTest />} />
+            </Routes>
       </div>
   )
 }

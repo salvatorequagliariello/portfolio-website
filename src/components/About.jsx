@@ -1,6 +1,9 @@
 import GoBack from "./GoBackNavigation";
+import { useState } from "react";
 
 const About = () => {
+    const [animation, setAnimation] = useState(false);
+
     return (
         <div className="about__container container-fluid animate__animated animate__fadeIn animate__faster h-100">
             <div className="row">
@@ -9,7 +12,7 @@ const About = () => {
             <div className="container-fluid h-100">
                 <div className="row align-items-center h-100">
                     <div className="about__title-container col-6 p-5 d-flex flex-column align-items-center">
-                        <h1 className="about__title">Hi.</h1>
+                        <button onClick={() => setAnimation(true)} className="about__hi-button"><h1 className={"about__title " + (animation ? "animate__animated animate__headShake" : "")} onAnimationEnd={() => setAnimation(false)}>Hi.</h1></button>
                         <h3 className="about__paragraph-header">I'm Salvatore Quagliariello.</h3>
                     </div>
                     <div className="about_paragraph-container col-6 p-5">

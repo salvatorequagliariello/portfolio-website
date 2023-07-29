@@ -24,8 +24,3 @@
     border: 10vh solid transparent;
     background-color: var(--primary-white-color);
 }
-
-.app-container {
-    border: 0.15rem solid var(--primary-dark-color)
-}
-

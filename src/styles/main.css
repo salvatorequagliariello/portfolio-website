@@ -21,7 +21,11 @@
     padding: 0;
 
     height: 100vh;
-    border: 5vw solid var(--primary-dark-color);
+    border: 2vw solid transparent;
     background-color: var(--primary-white-color);
+}
+
+.app-container {
+    border: 0.15rem solid var(--primary-dark-color)
 }
 

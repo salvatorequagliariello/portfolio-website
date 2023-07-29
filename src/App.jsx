@@ -10,12 +10,14 @@ function App() {
 
   return (
       <div className="frame container-fluid">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/works" element={<Works />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <div className='app-container container-fluid h-100'>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/works" element={<Works />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
       </div>
   )
 }

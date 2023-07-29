@@ -25,26 +25,18 @@ const Works = () => {
     };
 
     return (
-            <div className="works-page container-fluid  h-100">
-                <GoBack categoryName={"WORKS"} categoryDescription={"//a showcase of my portfolio projects."}/>
+            <div className="works-page container-fluid h-100">
                 <div className="row h-100">
+                    <div className="col-6 h-100">
+                        <GoBack categoryName={"WORKS"} categoryDescription={"//a showcase of my portfolio projects."}/>
+                    </div>
                     <div className="works__links-list col-6 h-100">
-                        <button onClick={handleClick} value="Instagram" className="works__link">Instagram</button>
+                        <button value="Instagram" className="works__link">Instagram</button>
                         <button value="Facebook" className="works__link">Facebook</button>
                         <button value="Youtube" className="works__link">Youtube</button>
                         <button value="Twitter" className="works__link">Twitter</button>
                         <button value="Snapchat" className="works__link">Snapchat</button>
                         <button value="Netflix" className="works__link">Netflix</button>
-                    </div>
-                    <div className="works__project-view col-6 h-100">
-                        {projectView &&
-                            <ProjectView 
-                            projectImage={project.image}
-                            projectName={project.title}
-                            projectTech={project.tech}
-                            projectLink={project.link}
-                            projectDescription={project.description} />
-                        }
                     </div>
                 </div>
             </div>

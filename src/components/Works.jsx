@@ -9,7 +9,7 @@ const Works = () => {
     const [category, setCategory] = useState("");
 
     return (
-            <div className="works-page container-fluid h-100">
+            <div className="works-page container-fluid h-100 animate__animated animate__fadeIn animate__faster">
                 <div className="row h-100">
                     <div className="col-6 h-100">
                         <GoBack categoryName={"WORKS"} categoryDescription={"//a showcase of my portfolio projects."}/>

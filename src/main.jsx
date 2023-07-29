@@ -4,6 +4,7 @@ import App from './App'
 
 import { BrowserRouter } from 'react-router-dom'
 
+import 'animate.css';
 import './styles/reset.css'
 import './styles/main.css'
 import './styles/works.css'

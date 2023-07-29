@@ -2,7 +2,6 @@ import { Link, Route, Routes } from "react-router-dom";
 import { useState } from "react";
 
 import GoBack from "./GoBackNavigation";
-import ProjectView from "./ProjectView";
 import InstagramTest from "./projects-components/InstagramTest";
 
 const Works = () => {
@@ -16,7 +15,7 @@ const Works = () => {
                         <GoBack categoryName={"WORKS"} categoryDescription={"//a showcase of my portfolio projects."}/>
                     </div>
                     <div className="works__links-list col-6 h-100">
-                        <Link to={"/instagram"} className="works__link">Instagram</Link>
+                        <Link to={"/works/instagram"} className="works__link">Instagram</Link>
                         <button to className="works__link">Facebook</button>
                         <button value="Youtube" className="works__link">Youtube</button>
                         <button value="Twitter" className="works__link">Twitter</button>
@@ -24,9 +23,6 @@ const Works = () => {
                         <button value="Netflix" className="works__link">Netflix</button>
                     </div>
                 </div>
-                <Routes>
-                    <Route path="/instagram" Component={<InstagramTest />} />
-                </Routes>
             </div>
     )
 }

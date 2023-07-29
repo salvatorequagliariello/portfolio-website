@@ -1,11 +1,6 @@
 
-.project-view__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 4rem;
-
-    gap: 1rem;
+.row {
+    
 }
 
 .project-view__image {

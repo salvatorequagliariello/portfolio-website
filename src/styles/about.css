@@ -1,0 +1,21 @@
+.about__title {
+    font-family: var(--font-secondary);
+    font-size: 30rem;
+    margin: 0;
+    padding: 0;
+
+    line-height: 0.5;
+}
+
+.about__paragraph-header {
+    font-family: var(--font-primary);
+    font-size: 1.8rem;
+}
+
+.about__paragraph-text {
+    font-family: var(--font-primary);
+    font-size: 1.3rem;
+
+    text-align: justify;
+    margin-bottom: 2rem;
+}

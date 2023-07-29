@@ -21,7 +21,7 @@
     padding: 0;
 
     height: 100vh;
-    border: 6vh solid transparent;
+    border: 10vh solid transparent;
     background-color: var(--primary-white-color);
 }
 

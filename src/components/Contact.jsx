@@ -3,7 +3,7 @@ import GoBack from "./GoBackNavigation";
 const Contact = () => {
     return (
         <>
-            <GoBack categoryName={"CONTACT"}/>
+            <GoBack previousPath={"/"} categoryName={"CONTACT"}/>
         </>
     )
 }

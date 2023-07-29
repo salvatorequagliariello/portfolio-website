@@ -12,7 +12,7 @@ const Works = () => {
             <div className="works-page container-fluid h-100 animate__animated animate__fadeIn animate__faster">
                 <div className="row h-100">
                     <div className="col-6 h-100">
-                        <GoBack categoryName={"WORKS"} categoryDescription={"//a showcase of my portfolio projects."}/>
+                        <GoBack categoryName={"WORKS"} previousPath={"/"} categoryDescription={"//a showcase of my portfolio projects."}/>
                     </div>
                     <div className="works__links-list col-6 h-100">
                         <Link to={"/works/instagram"} className="works__link">Instagram</Link>

@@ -15,7 +15,7 @@ const InstagramTest = () => {
     return (
         <div className="container-fluid h-100 animate__animated animate__fadeIn animate__faster">
             <div className="row">
-                <GoBack categoryName={project.title}/>
+                <GoBack categoryName={project.title} previousPath={"/works"}/>
             </div>
             <div className="row">
                 <ProjectView 
